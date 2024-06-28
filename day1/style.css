@@ -1,0 +1,109 @@
+.frame{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    background: linear-gradient(to top right,rgb(51, 10, 75) ,rgb(21, 89, 168), rgb(116, 188, 206));
+    box-shadow: 0px  0px 7px ;
+    
+}
+.center{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    
+}
+
+.numbers{
+    position: relative;
+    display: flex;
+    width: 260px;
+    height: 125px;
+   /* margin-left: -10px; */
+    
+}
+.one_one{
+    position: absolute;
+    z-index: 5;
+    width: 30px;
+    height: 67px;
+    margin-left: 8.9px;
+    margin-top: -2.8px;
+    background-color: #fff;
+    border-radius: 13px 4px 4px;
+    transform: rotate(49deg);
+    box-shadow: 0.5px 1px 2px ;
+}
+.one_two{
+    position: absolute;
+    z-index: 10;
+    width: 33px;
+    height: 120px;
+    margin-top: 2px;
+    margin-left: 32px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: -0.5px 1px 3px ;
+    
+}
+.zero_one{
+    position: absolute;
+    z-index: 7;
+    width: 115px;
+    height: 117px;
+    margin-left: 47px;
+    margin-top: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 27px solid #fff;
+    box-shadow: 2px 3px 6px;
+    
+}
+.zero_two{
+    position: absolute;
+    z-index: 4;
+    width: 115px;
+    height: 115px;
+    margin-left: 144px;
+    margin-top: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 27px solid #fff;
+    box-shadow: 2px 3px 6px;
+}
+.big{
+    position: relative;
+    width: 260px;
+    height: 75px;
+    margin-top: -7px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 75px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    
+}
+.small{
+    position: relative;
+    width: 260px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    
+}
